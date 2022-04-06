@@ -1,16 +1,15 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/boilerplate",
+	"name": "blocks-course/metadata-block",
 	"version": "0.1.0",
-	"title": "Boilerplate",
+	"title": "Metadata Block",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example static block scaffolded with Create Block tool.",
+	"icon": "admin-settings",
+	"description": "Example of editing meta using blocks.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "boilerplate",
+	"textdomain": "metadata-block",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"
